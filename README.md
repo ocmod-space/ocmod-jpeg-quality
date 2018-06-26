@@ -1,7 +1,7 @@
 # Image Quality 100%
 
 ## Description
-OCMOD modification for Opencart 3 that turns off change image quality by OC.
+Free OCMOD modification for Opencart 3 that turns off change image quality by OC.
 
 Have been tested with 3.0.2.0 only, but should work with other OC 3.x versions.
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  * image-quality-100 v1.0 (https://github.com/underr-ua/ocmod3-image-quality-100)
+  * Copyright 2018 Burkatskyi Andrii aka underr
+  * Licensed under MIT (https://raw.githubusercontent.com/underr-ua/ocmod3-image-quality-100/master/LICENSE)
+-->
+
+<modification>
+	<name>[underr] Image Quality - 100&#37;</name>
+	<code>image-quality-100</code>
+	<version>1.0</version>
+	<author>Andrii Burkatskyi aka underr</author>
+	<link>https://github.com/underr-ua/ocmod3-image-quality-100/</link>
+
+    <file path="system/library/image.php" error="skip">
+        <operation error="skip">
+            <search><![CDATA[public function save($file, $quality = 90) {]]></search>
+            <add position="replace"><![CDATA[public function save($file) {]]></add>
+        </operation>
+        <operation error="skip">
+            <search><![CDATA[imagejpeg($this->image, $file, $quality);]]></search>
+            <add position="replace"><![CDATA[imagejpeg($this->image, $file);]]></add>
+        </operation>
+
+    </file>
+
+</modification>

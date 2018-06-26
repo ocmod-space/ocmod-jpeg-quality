@@ -7,7 +7,7 @@ Have been tested with 3.0.2.0 only, but should work with other OC 3.x versions.
 
 ## Install
 * To begin, make backup, really!
-* Download zip-file:[bin/image-quality-100.ocmod.zip](https://github.com/underr-ua/image-quality-100/raw/master/bin/image-quality-100.ocmod.zip)
+* Download zip-file:[bin/image-quality-100.ocmod.zip](https://github.com/underr-ua/ocmod3-image-quality-100/raw/master/bin/image-quality-100.ocmod.zip)
 * Open OpenCart Admin Panel
 * Extensions > Installer > [Upload]: open the file
 * See the "Success: You have modified extensions!" message
@@ -24,7 +24,7 @@ Have been tested with 3.0.2.0 only, but should work with other OC 3.x versions.
 * Go to Dashboard > [Developer Settings] > SASS [Refresh]
 
 ## Links
-* [underr.space](https://underr.space/notes/projects/project-005.html)
+* [underr.space](https://underr.space/notes/projects/project-006.html)
 
 ## Donation
 <a href='https://ko-fi.com/X8X290YA' target='_blank'><img src='https://image.ibb.co/hmWnnc/kofi.png' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>

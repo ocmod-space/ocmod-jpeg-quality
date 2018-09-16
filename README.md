@@ -5,8 +5,8 @@ Image Quality 100% extension is for CMS Opencart 3. It turns off image quality a
 Have been tested with 3.0.2.0 only, but should work with other OC 3.x versions.
 
 ## Features
-* Turns off image quality auto changing by OC
-* Does not change original files - OCMOD modification
+* Turns off image quality auto changing by OC.
+* Does not change original files - OCMOD modification.
 
 ## How to install
 * To begin, make backup, really!

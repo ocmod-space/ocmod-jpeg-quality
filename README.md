@@ -2,7 +2,7 @@
 
 ## Description
 Image Quality 100% extension is for CMS Opencart 3. It turns off image quality auto changing by OC.
-Have been tested with 3.0.2.0 only, but should work with other OC 3.x versions.
+The extension has been tested with OC 3.0.2.0 only, but should work with other OC 3.x versions..
 
 ## Features
 * Turns off image quality auto changing by OC.
@@ -29,7 +29,7 @@ No need to configure
 [underr.space](https://underr.space/notes/projects/project-006.html)
 
 ## License
-Licensed under MIT (https://raw.githubusercontent.com/underr-ua/ocmod3-image-quality-100/master/LICENSE.txt)
+Licensed under [MIT](https://raw.githubusercontent.com/underr-ua/ocmod3-image-quality-100/master/LICENSE.txt)
 
 ## Donation
-<a href='https://www.liqpay.ua/en/checkout/card/underr' target='_blank'><img src='https://image.ibb.co/nA3HoS/liqpay.png' border='0' alt='Donate me with LiqPay'/></a>
+[![Donate me with LiqPay](https://image.ibb.co/nA3HoS/liqpay.png)](https://www.liqpay.ua/en/checkout/card/underr)

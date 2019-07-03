@@ -1,7 +1,6 @@
 # Copyright 2018 Andrii Burkatskyi aka underr
 
-dir=$(shell pwd)
-zip=$(shell basename $(dir)).ocmod.zip
+zip=$(shell basename `pwd`).ocmod.zip
 
 license=LICENSE.txt
 readme=README.md
@@ -15,10 +14,10 @@ makedir:
 	mkdir -p "$(bin)"
 
 makezip:
-	cd "$(src)" && zip -9 -r "../$(bin)/$(zip)" * && cd ..
+	cd "$(src)" && zip -9qrX "../$(bin)/$(zip)" * && cd ..
 
 addtext:
-	zip -9 -j "$(bin)/$(zip)" "$(readme)" "$(license)"
+	zip -9qrX "$(bin)/$(zip)" "$(readme)" "$(license)"
 
 clean:
 	@echo Cleaning...
